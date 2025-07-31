@@ -62,7 +62,7 @@ A functional mini-project management tool created with React and Node.js (option
 
 - **Organization:** CODSOFT  
 - **Role:** Web Development Intern  
-- **Duration:** 15th July 2025 – 15th August 2025  
+- **Duration:** 20th July 2025 – 20th August 2025  
 - **Mode:** Virtual  
 - **Hashtag:** `#VirtualInternship`
 
