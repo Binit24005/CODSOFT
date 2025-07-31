@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #007bff;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+form input, form button {
+  flex: 1 1 200px;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form button {
+  background: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #218838;
+}
+
+.task-card {
+  border: 1px solid #ddd;
+  border-left: 5px solid #007bff;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+.task-card.completed {
+  border-left-color: #28a745;
+  background: #e6ffec;
+}
+
+.task-meta {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+.complete-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.complete-btn:hover {
+  background: #0056b3;
+}
